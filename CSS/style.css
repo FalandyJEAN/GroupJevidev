@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(247, 242, 242);
+}
+
+.navbar {
+    background-color:white !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid black;
+}
+
+.navbar .container {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.collapse{
+    justify-content: space-between;
+}
+
+.collapse .fund{
+    justify-content: flex-end;
+    background-color: red;
+    padding: 15px;
+    margin: -10px;
+}
+
+.fund a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+span{
+    color:red;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='currentColor' class='bi bi-filter-right' viewBox='0 0 16 16'%3E%3Cpath d='M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+    border:none;
+}
+
+#carouselExampleAutoplaying{
+    margin-top: 55px;
+}
+
+.carousel-item{
+    height: 760PX;
+    width: auto;
+}
+
+.bg-dark{
+    background-color: red !important;
+}
+
+
+.btn-primary{
+    background-color: red;
+    border: none;
+}
+
+
+@media(max-width:460px){
+    .carousel-item{
+        height: auto;
+    }
+}
